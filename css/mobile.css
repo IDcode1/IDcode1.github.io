@@ -1,0 +1,94 @@
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 70px;
+}
+
+#navbar .logo{
+  float: none;
+}
+
+#navbar ul{
+  margin-bottom: 20px;
+}
+
+#navbar ul, #navbar ul li{
+  float: none;
+}
+
+#navbar ul li a{
+  padding: 5px;
+}
+
+.toogle{
+  z-index: 9;
+  position: fixed;
+  right: 10px;
+  top: 18px;
+}
+.toggle h1 {
+  color: #fff;
+}
+
+.line{
+  width: 35px;
+  height: 6px;
+  background-color: #fff;
+  margin: 3px auto;
+}
+
+#openUl {
+  transition: .5s;
+  transform: translateY(-200%);
+}
+
+/* Showcase */
+#showcase{
+  height: 100%;
+}
+#showcase .container {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Home_info */
+
+#home_info{
+  height: max-content;
+}
+
+#home_info .info_img{
+  float: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+#home_info .info_content{  
+  float: none;
+  width: 100%;
+  height: 100%;
+}
+/* Boxes */
+.box{
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about_info .info_right,#about_info .info_left{
+  float: none;
+  width: 100%;
+}
+#about_info .info_right{
+  margin-top: 30px;
+}
+
+.l_heading{
+  text-align: center;
+}
+
+#contact_info .box{
+  border-bottom: #444 dotted 2px;
+}
